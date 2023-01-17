@@ -1,0 +1,29 @@
+@import "./reset.css";
+@import "./variables.css";
+
+/* Components */
+@import "./components/status-bar.css";
+@import "./components/screen-header.css";
+@import "./components/nav.css";
+@import "./components/user-component.css";
+@import "./components/badge.css";
+
+/* Screens */
+@import "./screens/login.css";
+@import "./screens/friends.css";
+
+@font-face {
+	font-family: 'Chosunilbo_myungjo';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	font-family: 'Chosunilbo_myungjo';
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
